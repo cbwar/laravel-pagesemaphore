@@ -1,0 +1,19 @@
+{
+  "name": "cbwar/laravel-pagesemaphore",
+  "description": "Set semaphore for page editing concurency",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Raphael Lisch",
+      "email": "raphael.lisch@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Cbwar\\Laravel\\PageSemaphore\\": "src"
+    }
+  },
+  "require": {
+    "cboden/ratchet": "^0.3"
+  }
+}
